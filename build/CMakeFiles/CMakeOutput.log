@@ -1,0 +1,1133 @@
+The system is: Darwin - 17.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: -fomit-frame-pointer;-funroll-loops;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-flto;-m64;;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/3.9.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_012f7/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_012f7.dir/build.make CMakeFiles/cmTC_012f7.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_012f7.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_012f7.dir/testCCompiler.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_012f7
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_012f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_012f7.dir/testCCompiler.c.o  -o cmTC_012f7 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_73ce8/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_73ce8.dir/build.make CMakeFiles/cmTC_73ce8.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_73ce8
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73ce8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o  -o cmTC_73ce8 
+Apple LLVM version 9.0.0 (clang-900.0.22.8)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_73ce8 -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+Library search paths:
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/zlib/lib
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+LLVM version 9.0.0, (clang-900.0.22.8)
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_73ce8/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_73ce8.dir/build.make CMakeFiles/cmTC_73ce8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_73ce8]
+  ignore line: [/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73ce8.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o  -o cmTC_73ce8 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.22.8)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_73ce8 -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_73ce8] ==> ignore
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/zlib/lib] ==> dir [/usr/local/opt/zlib/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_73ce8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openblas/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_089da/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_089da.dir/build.make CMakeFiles/cmTC_089da.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_089da.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c11 -o CMakeFiles/cmTC_089da.dir/feature_tests.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_089da
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_089da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_089da.dir/feature_tests.c.o  -o cmTC_089da 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_dc55a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_dc55a.dir/build.make CMakeFiles/cmTC_dc55a.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc55a.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c99 -o CMakeFiles/cmTC_dc55a.dir/feature_tests.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dc55a
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc55a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_dc55a.dir/feature_tests.c.o  -o cmTC_dc55a 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_60172/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_60172.dir/build.make CMakeFiles/cmTC_60172.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60172.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c90 -o CMakeFiles/cmTC_60172.dir/feature_tests.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_60172
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60172.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_60172.dir/feature_tests.c.o  -o cmTC_60172 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bf191/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bf191.dir/build.make CMakeFiles/cmTC_bf191.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf191.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_bf191.dir/testCXXCompiler.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_bf191
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf191.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_bf191.dir/testCXXCompiler.cxx.o  -o cmTC_bf191 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a25a8/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a25a8.dir/build.make CMakeFiles/cmTC_a25a8.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a25a8
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25a8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a25a8 
+Apple LLVM version 9.0.0 (clang-900.0.22.8)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_a25a8 -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+Library search paths:
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/zlib/lib
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a25a8/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a25a8.dir/build.make CMakeFiles/cmTC_a25a8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a25a8]
+  ignore line: [/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25a8.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a25a8 ]
+  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.22.8)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_a25a8 -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a25a8] ==> ignore
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/zlib/lib] ==> dir [/usr/local/opt/zlib/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a25a8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openblas/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_c7f69/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_c7f69.dir/build.make CMakeFiles/cmTC_c7f69.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7f69.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++1z -o CMakeFiles/cmTC_c7f69.dir/feature_tests.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c7f69
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7f69.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c7f69.dir/feature_tests.cxx.o  -o cmTC_c7f69 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bbc76/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bbc76.dir/build.make CMakeFiles/cmTC_bbc76.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbc76.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++14 -o CMakeFiles/cmTC_bbc76.dir/feature_tests.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bbc76
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbc76.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_bbc76.dir/feature_tests.cxx.o  -o cmTC_bbc76 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_d716c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_d716c.dir/build.make CMakeFiles/cmTC_d716c.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d716c.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++11 -o CMakeFiles/cmTC_d716c.dir/feature_tests.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d716c
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d716c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d716c.dir/feature_tests.cxx.o  -o cmTC_d716c 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_70b42/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_70b42.dir/build.make CMakeFiles/cmTC_70b42.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70b42.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++98 -o CMakeFiles/cmTC_70b42.dir/feature_tests.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_70b42
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_70b42.dir/feature_tests.cxx.o  -o cmTC_70b42 
+ld: warning: directory not found for option '-L/usr/local/opt/llvm/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_98c89/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_98c89.dir/build.make CMakeFiles/cmTC_98c89.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98c89.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_98c89.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98c89
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98c89.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_98c89.dir/src.cxx.o  -o cmTC_98c89 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_b48c6/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_b48c6.dir/build.make CMakeFiles/cmTC_b48c6.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b48c6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -DC_SUPPORTS_WERROR_DATE_TIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Werror -Werror=date-time -o CMakeFiles/cmTC_b48c6.dir/src.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b48c6
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48c6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -DC_SUPPORTS_WERROR_DATE_TIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b48c6.dir/src.c.o  -o cmTC_b48c6 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_dcca0/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_dcca0.dir/build.make CMakeFiles/cmTC_dcca0.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcca0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Werror -Werror=date-time -o CMakeFiles/cmTC_dcca0.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dcca0
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcca0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_dcca0.dir/src.cxx.o  -o cmTC_dcca0 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_397fe/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_397fe.dir/build.make CMakeFiles/cmTC_397fe.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_397fe.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++11 -o CMakeFiles/cmTC_397fe.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_397fe
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397fe.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_397fe.dir/src.cxx.o  -o cmTC_397fe 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBUNWIND_HAS_FUNWIND_TABLES succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_9656a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_9656a.dir/build.make CMakeFiles/cmTC_9656a.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9656a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DLIBUNWIND_HAS_FUNWIND_TABLES -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -funwind-tables -o CMakeFiles/cmTC_9656a.dir/src.c.o   -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9656a
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9656a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DLIBUNWIND_HAS_FUNWIND_TABLES -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_9656a.dir/src.c.o  -o cmTC_9656a 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_FPIC_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_b690a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_b690a.dir/build.make CMakeFiles/cmTC_b690a.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b690a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_FPIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fPIC -o CMakeFiles/cmTC_b690a.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b690a
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b690a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_FPIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b690a.dir/src.cxx.o  -o cmTC_b690a 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3feda/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3feda.dir/build.make CMakeFiles/cmTC_3feda.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3feda.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fno-exceptions -o CMakeFiles/cmTC_3feda.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3feda
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3feda.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3feda.dir/src.cxx.o  -o cmTC_3feda 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_RTTI_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_48e94/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_48e94.dir/build.make CMakeFiles/cmTC_48e94.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48e94.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fno-rtti -o CMakeFiles/cmTC_48e94.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48e94
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48e94.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_48e94.dir/src.cxx.o  -o cmTC_48e94 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_FSTRICT_ALIASING_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_0705f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_0705f.dir/build.make CMakeFiles/cmTC_0705f.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0705f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_FSTRICT_ALIASING_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fstrict-aliasing -o CMakeFiles/cmTC_0705f.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0705f
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0705f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_FSTRICT_ALIASING_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0705f.dir/src.cxx.o  -o cmTC_0705f 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NODEFAULTLIBS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_8f288/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_8f288.dir/build.make CMakeFiles/cmTC_8f288.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f288.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NODEFAULTLIBS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -nodefaultlibs -o CMakeFiles/cmTC_8f288.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8f288
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f288.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NODEFAULTLIBS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_8f288.dir/src.cxx.o  -o cmTC_8f288 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NOSTDINCXX_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1f6a1/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1f6a1.dir/build.make CMakeFiles/cmTC_1f6a1.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f6a1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NOSTDINCXX_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -nostdinc++ -o CMakeFiles/cmTC_1f6a1.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f6a1
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f6a1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NOSTDINCXX_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1f6a1.dir/src.cxx.o  -o cmTC_1f6a1 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WALL_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1ecf9/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1ecf9.dir/build.make CMakeFiles/cmTC_1ecf9.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ecf9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WALL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wall -o CMakeFiles/cmTC_1ecf9.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1ecf9
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ecf9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WALL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1ecf9.dir/src.cxx.o  -o cmTC_1ecf9 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_W_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1f533/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1f533.dir/build.make CMakeFiles/cmTC_1f533.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f533.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_W_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -W -o CMakeFiles/cmTC_1f533.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f533
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f533.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_W_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1f533.dir/src.cxx.o  -o cmTC_1f533 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WNO_UNUSED_FUNCTION_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_7ee43/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_7ee43.dir/build.make CMakeFiles/cmTC_7ee43.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ee43.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wno-unused-function -o CMakeFiles/cmTC_7ee43.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7ee43
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ee43.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7ee43.dir/src.cxx.o  -o cmTC_7ee43 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WUNUSED_VARIABLE_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_6df18/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_6df18.dir/build.make CMakeFiles/cmTC_6df18.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6df18.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-variable -o CMakeFiles/cmTC_6df18.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6df18
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6df18.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_6df18.dir/src.cxx.o  -o cmTC_6df18 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WUNUSED_PARAMETER_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bd727/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bd727.dir/build.make CMakeFiles/cmTC_bd727.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd727.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNUSED_PARAMETER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-parameter -o CMakeFiles/cmTC_bd727.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bd727
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd727.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNUSED_PARAMETER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_bd727.dir/src.cxx.o  -o cmTC_bd727 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSTRICT_ALIASING_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_772b7/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_772b7.dir/build.make CMakeFiles/cmTC_772b7.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_772b7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSTRICT_ALIASING_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wstrict-aliasing -o CMakeFiles/cmTC_772b7.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_772b7
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_772b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSTRICT_ALIASING_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_772b7.dir/src.cxx.o  -o cmTC_772b7 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSTRICT_OVERFLOW_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_4689b/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_4689b.dir/build.make CMakeFiles/cmTC_4689b.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4689b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSTRICT_OVERFLOW_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wstrict-overflow -o CMakeFiles/cmTC_4689b.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4689b
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4689b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSTRICT_OVERFLOW_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4689b.dir/src.cxx.o  -o cmTC_4689b 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_23209/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_23209.dir/build.make CMakeFiles/cmTC_23209.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23209.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WWRITE_STRINGS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wwrite-strings -o CMakeFiles/cmTC_23209.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23209
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23209.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WWRITE_STRINGS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_23209.dir/src.cxx.o  -o cmTC_23209 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WCHAR_SUBSCRIPTS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_b5123/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_b5123.dir/build.make CMakeFiles/cmTC_b5123.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5123.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WCHAR_SUBSCRIPTS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wchar-subscripts -o CMakeFiles/cmTC_b5123.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b5123
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5123.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WCHAR_SUBSCRIPTS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b5123.dir/src.cxx.o  -o cmTC_b5123 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WMISMATCHED_TAGS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_6b32c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_6b32c.dir/build.make CMakeFiles/cmTC_6b32c.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b32c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WMISMATCHED_TAGS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wmismatched-tags -o CMakeFiles/cmTC_6b32c.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b32c
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b32c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WMISMATCHED_TAGS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_6b32c.dir/src.cxx.o  -o cmTC_6b32c 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WMISSING_BRACES_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_c8be8/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_c8be8.dir/build.make CMakeFiles/cmTC_c8be8.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8be8.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WMISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wmissing-braces -o CMakeFiles/cmTC_c8be8.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8be8
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8be8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WMISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c8be8.dir/src.cxx.o  -o cmTC_c8be8 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSHORTEN_64_TO_32_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_13471/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_13471.dir/build.make CMakeFiles/cmTC_13471.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13471.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSHORTEN_64_TO_32_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wshorten-64-to-32 -o CMakeFiles/cmTC_13471.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13471
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13471.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSHORTEN_64_TO_32_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_13471.dir/src.cxx.o  -o cmTC_13471 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSIGN_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_18230/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_18230.dir/build.make CMakeFiles/cmTC_18230.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18230.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSIGN_CONVERSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wsign-conversion -o CMakeFiles/cmTC_18230.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18230
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18230.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSIGN_CONVERSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_18230.dir/src.cxx.o  -o cmTC_18230 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_16d16/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_16d16.dir/build.make CMakeFiles/cmTC_16d16.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16d16.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wsign-compare -o CMakeFiles/cmTC_16d16.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16d16
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d16.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_16d16.dir/src.cxx.o  -o cmTC_16d16 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WSHADOW_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3bd4c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3bd4c.dir/build.make CMakeFiles/cmTC_3bd4c.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bd4c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSHADOW_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wshadow -o CMakeFiles/cmTC_3bd4c.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3bd4c
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd4c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WSHADOW_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3bd4c.dir/src.cxx.o  -o cmTC_3bd4c 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WCONVERSION_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_e61b1/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_e61b1.dir/build.make CMakeFiles/cmTC_e61b1.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e61b1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WCONVERSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wconversion -o CMakeFiles/cmTC_e61b1.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e61b1
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e61b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WCONVERSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e61b1.dir/src.cxx.o  -o cmTC_e61b1 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WNEWLINE_EOF_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_617b1/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_617b1.dir/build.make CMakeFiles/cmTC_617b1.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_617b1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNEWLINE_EOF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wnewline-eof -o CMakeFiles/cmTC_617b1.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_617b1
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_617b1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNEWLINE_EOF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_617b1.dir/src.cxx.o  -o cmTC_617b1 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WUNDEF_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_681bd/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_681bd.dir/build.make CMakeFiles/cmTC_681bd.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_681bd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wundef -o CMakeFiles/cmTC_681bd.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_681bd
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_681bd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WUNDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_681bd.dir/src.cxx.o  -o cmTC_681bd 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_PEDANTIC_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_9b088/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_9b088.dir/build.make CMakeFiles/cmTC_9b088.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b088.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -pedantic -o CMakeFiles/cmTC_9b088.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b088
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b088.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_9b088.dir/src.cxx.o  -o cmTC_9b088 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WERROR_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_e874d/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_e874d.dir/build.make CMakeFiles/cmTC_e874d.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e874d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Werror -o CMakeFiles/cmTC_e874d.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e874d
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e874d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_e874d.dir/src.cxx.o  -o cmTC_e874d 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WNO_ERROR_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a0038/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a0038.dir/build.make CMakeFiles/cmTC_a0038.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0038.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNO_ERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wno-error -o CMakeFiles/cmTC_a0038.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a0038
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0038.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WNO_ERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a0038.dir/src.cxx.o  -o cmTC_a0038 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1a2d6/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1a2d6.dir/build.make CMakeFiles/cmTC_1a2d6.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a2d6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_STD_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++11 -o CMakeFiles/cmTC_1a2d6.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a2d6
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a2d6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_STD_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_1a2d6.dir/src.cxx.o  -o cmTC_1a2d6 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function fopen exists in the c passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_48699/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_48699.dir/build.make CMakeFiles/cmTC_48699.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48699.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=fopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_48699.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48699
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48699.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=fopen -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_48699.dir/CheckFunctionExists.c.o  -o cmTC_48699 -lc 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dladdr exists in the dl passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_c1c1a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_c1c1a.dir/build.make CMakeFiles/cmTC_c1c1a.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1c1a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=dladdr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_c1c1a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1c1a
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c1a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=dladdr -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c1c1a.dir/CheckFunctionExists.c.o  -o cmTC_c1c1a -ldl 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_once exists in the pthread passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_0e507/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_0e507.dir/build.make CMakeFiles/cmTC_0e507.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e507.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=pthread_once -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_0e507.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e507
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e507.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -m64 -Werror=date-time -DCHECK_FUNCTION_EXISTS=pthread_once -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0e507.dir/CheckFunctionExists.c.o  -o cmTC_0e507 -lpthread 
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+
+

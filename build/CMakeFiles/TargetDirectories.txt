@@ -1,0 +1,16 @@
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/install/local.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/install/strip.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/install.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/list_install_components.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/rebuild_cache.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/edit_cache.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/install/local.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/install/strip.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/install.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/list_install_components.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/rebuild_cache.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/unwind.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/edit_cache.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/unwind_static.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/unwind_shared.dir
+/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/src/CMakeFiles/unwind_objects.dir

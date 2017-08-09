@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_WX_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a2e8c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a2e8c.dir/build.make CMakeFiles/cmTC_a2e8c.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2e8c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_WX_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /WX -o CMakeFiles/cmTC_a2e8c.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/WX'
+gmake[1]: *** [CMakeFiles/cmTC_a2e8c.dir/build.make:66: CMakeFiles/cmTC_a2e8c.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_a2e8c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_WX_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_43852/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_43852.dir/build.make CMakeFiles/cmTC_43852.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43852.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_WX_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /WX- -o CMakeFiles/cmTC_43852.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/WX-'
+gmake[1]: *** [CMakeFiles/cmTC_43852.dir/build.make:66: CMakeFiles/cmTC_43852.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_43852/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_EHSC_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1bd5f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1bd5f.dir/build.make CMakeFiles/cmTC_1bd5f.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1bd5f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_EHSC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /EHsc -o CMakeFiles/cmTC_1bd5f.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHsc'
+gmake[1]: *** [CMakeFiles/cmTC_1bd5f.dir/build.make:66: CMakeFiles/cmTC_1bd5f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_1bd5f/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_EHS_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_433bc/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_433bc.dir/build.make CMakeFiles/cmTC_433bc.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_433bc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_EHS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /EHs- -o CMakeFiles/cmTC_433bc.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHs-'
+gmake[1]: *** [CMakeFiles/cmTC_433bc.dir/build.make:66: CMakeFiles/cmTC_433bc.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_433bc/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_EHA_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_10751/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_10751.dir/build.make CMakeFiles/cmTC_10751.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10751.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_EHA_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /EHa- -o CMakeFiles/cmTC_10751.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/EHa-'
+gmake[1]: *** [CMakeFiles/cmTC_10751.dir/build.make:66: CMakeFiles/cmTC_10751.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_10751/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBUNWIND_HAS_NO_GR_FLAG failed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_00dc5/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_00dc5.dir/build.make CMakeFiles/cmTC_00dc5.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00dc5.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -DLIBUNWIND_HAS_NO_GR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   /GR- -o CMakeFiles/cmTC_00dc5.dir/src.cxx.o -c /Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/GR-'
+gmake[1]: *** [CMakeFiles/cmTC_00dc5.dir/build.make:66: CMakeFiles/cmTC_00dc5.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/libunwind-4.0.1.src/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:126: cmTC_00dc5/fast] Error 2
+
+Source file was:
+int main() { return 0; }
